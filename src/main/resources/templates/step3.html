@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<style>
+table {
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+</style>
+<body>
+	<h1>Step 3 : Calculation Results</h1>
+	
+	File Name: <label th:text="${filename}"></label> <br />
+	Total Test: <label th:text="${totaltest}"></label> | Failed Test: <label th:text="${failedtest}"></label> <br />
+	<div>
+	     <table>
+	     	<tbody>
+	     		<tr>
+	     			<th>
+	     				Test Case
+	     			</th>
+	     			<th>
+	     				Model Type
+	     			</th>
+	     			<th>
+	     				Test Date
+	     			</th>
+	     			<th>
+	     				Details
+	     			</th>
+	     		</tr>
+				<tr th:each="row,rowStat : ${testcases}">
+			   		<td th:text="${row.testcase}"></td>
+	           		<td th:text="${row.modelType}"></td>
+	           		<td th:text="${row.testdate}"></td>
+		           		
+					<td>
+						<ul th:each="entry: ${row.coeff}">
+							<li th:if="${entry.serverityType}" th:text="'Serverity Type :' + ${entry.serverityType}"></li>
+							<li th:if="${entry.vehicleRentalInd}" th:text="'Vehicle Rental :' + ${entry.vehicleRentalInd}"></li>
+							<li th:if="${entry.totalLossInd}" th:text="'Total Loss :' + ${entry.totalLossInd}"></li>
+							<li th:if="${entry.initialPointOfImpactDesc}" th:text="'Point Of Impact :' + ${entry.initialPointOfImpactDesc}"></li>
+							<li th:if="${entry.lossCauseTypeDesc}" th:text="'Loss Cause :' + ${entry.lossCauseTypeDesc}"></li>
+							<li th:if="${entry.multiCarInd}" th:text="'MultiCar Ind :' + ${entry.multiCarInd}"></li>
+							<li th:if="${entry.vehicleMake}" th:text="'Vehicle Make :' + ${entry.vehicleMake}"></li>
+							<li th:if="${entry.deductibleWavierInd}" th:text="'Deductible Wavier :' + ${entry.deductibleWavierInd}"></li>
+							<li th:if="${entry.deductibleAmountPaid}" th:text="'Deductible Amount :' + ${entry.deductibleAmountPaid}"></li>
+							<li th:if="${entry.coverageDeductible}" th:text="'Coverage Deductible :' + ${entry.coverageDeductible}"></li>
+							<li th:if="${entry.jurisdictionGroup}" th:text="'Jurisdiction :' + ${entry.jurisdictionGroup}"></li>
+							<li th:if="${entry.grossLoss}" th:text="'Gross Loss :' + ${entry.grossLoss}"></li>
+							<li th:if="${entry.claimTierDesc}" th:text="'Claim Tier :' + ${entry.claimTierDesc}"></li>
+						</ul>
+					</td>
+	         	</tr>
+       		</tbody>
+	     </table>
+     </div>
+</body>
+
+</html>

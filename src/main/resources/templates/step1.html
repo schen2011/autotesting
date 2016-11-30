@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<style>
+table {
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+</style>
+<body>
+
+	<div th:if="${message}">
+		<h2 th:text="${message}"/>
+	</div>
+	
+	<div>
+		<form method="POST" enctype="multipart/form-data" action="/step1">
+			<table>
+				<tr><td>File to upload:</td><td><input type="file" name="file" /></td></tr>
+				<tr><td></td><td><input type="submit" value="Upload" /></td></tr>
+			</table>
+		</form>
+	</div>
+
+	
+	<div>
+		<ul>
+			<li th:each="name : ${namelist}">
+        		<span th:text="${name}">Default</span>
+			</li>
+		</ul>
+	</div>
+	<div>
+	     <table>
+	       <tbody>
+	       	 <tr>
+	       	 	<th></th>
+	       	 	<th>File Name</th>
+	       	 	<th>Upload Date</th>
+	       	 	<th>Action</th>
+	       	 </tr>
+	         <tr th:each="row,rowStat : ${clist}">
+	           <td><a th:href="@{/step2(name=${row.name})}">Select</a></td>
+	           <td th:text="${row.name}"></td>
+	           <td th:text="${row.date}"></td>
+	           <td th:text="${row.id}" style="display:none" th:name="${'priorities[' + row.id + ']'}"></td>
+	           <td><a th:href="@{/delete(name=${row.name})}">Delete</a></td>
+	         </tr>
+	       </tbody>
+	     </table>
+     </div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+[
+ {
+   "Model ID": "21", 
+   "Model Name": "APD Subrogation Predictive Model A",
+   "Model Execution Mode": "APD Subrogation Java Impl", 
+   "Model Version": "1", 
+   "Model Active Indicator": "0", 
+   "Model Weightage": "100", 
+   "Create Date Time": "20/28/2016", 
+   "Create User": "n0291189",
+   "Update Date Time": "20/28/2016", 
+   "Update User": "n0291189",
+   "Pilot Criteria Name": "N Numbers",
+   "Pilot Criteria Value": "n0291187,n03425660,n2345678"
+ }
+]

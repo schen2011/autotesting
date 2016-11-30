@@ -1,0 +1,812 @@
+[
+  {
+    "Coefficient Key": "SEVERITY1",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0.262946725357889,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0.0158500381175357,
+    "Input 1": "SEVERITY",
+    "Input 1 Value 1": "severe-gen"
+  },
+  {
+    "Coefficient Key": "SEVERITY2",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0.0127143713045669,
+    "Input 1": "SEVERITY",
+    "Input 1 Value 1": "moderate-gen"
+  },
+  {
+    "Coefficient Key": "SEVERITY3",
+    "Model Type 1": "Probability",
+    "Model Value 1": -0.0546627354994178,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "SEVERITY",
+    "Input 1 Value 1": "unknown"
+  },
+  {
+    "Coefficient Key": "SEVERITY4",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "SEVERITY",
+    "Input 1 Value 1": "Default"
+  },
+  {
+    "Coefficient Key": "RENTALIND1",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0.15159474572281,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": -0.00077562346198402,
+    "Input 1": "RENTALIND",
+    "Input 1 Value 1": "true"
+  },
+  {
+    "Coefficient Key": "RENTALIND2",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "RENTALIND",
+    "Input 1 Value 1": "false"
+  },
+  {
+    "Coefficient Key": "RENTALIND3",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "RENTALIND",
+    "Input 1 Value 1": "Default"
+  },
+  {
+    "Coefficient Key": "TOTALLOSSIND1",
+    "Model Type 1": "Probability",
+    "Model Value 1": -0.595994611160756,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": -0.157901113523259,
+    "Input 1": "TOTALLOSSIND",
+    "Input 1 Value 1": "true"
+  },
+  {
+    "Coefficient Key": "TOTALLOSSIND2",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "TOTALLOSSIND",
+    "Input 1 Value 1": "false"
+  },
+  {
+    "Coefficient Key": "TOTALLOSSIND3",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "TOTALLOSSIND",
+    "Input 1 Value 1": "Default"
+  },
+  {
+    "Coefficient Key": "INITIALPOINTIMPACT1",
+    "Model Type 1": "Probability",
+    "Model Value 1": -0.0355533517684634,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "INITIALPOINTIMPACT",
+    "Input 1 Value 1": 11
+  },
+  {
+    "Coefficient Key": "INITIALPOINTIMPACT2",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0.118322555580812,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "INITIALPOINTIMPACT",
+    "Input 1 Value 1": 10
+  },
+  {
+    "Coefficient Key": "INITIALPOINTIMPACT3",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0.383116460555692,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": -0.0324778838467527,
+    "Input 1": "INITIALPOINTIMPACT",
+    "Input 1 Value 1": 7
+  },
+  {
+    "Coefficient Key": "INITIALPOINTIMPACT4",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0.417759392407815,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "INITIALPOINTIMPACT",
+    "Input 1 Value 1": 8
+  },
+  {
+    "Coefficient Key": "INITIALPOINTIMPACT5",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0.22213781677845,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0.00990860448349307,
+    "Input 1": "INITIALPOINTIMPACT",
+    "Input 1 Value 1": 9
+  },
+  {
+    "Coefficient Key": "INITIALPOINTIMPACT6",
+    "Model Type 1": "Probability",
+    "Model Value 1": -0.146341918124077,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "INITIALPOINTIMPACT",
+    "Input 1 Value 1": 12
+  },
+  {
+    "Coefficient Key": "INITIALPOINTIMPACT7",
+    "Model Type 1": "Probability",
+    "Model Value 1": -1.06174550935386,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "INITIALPOINTIMPACT",
+    "Input 1 Value 1": 16
+  },
+  {
+    "Coefficient Key": "INITIALPOINTIMPACT8",
+    "Model Type 1": "Probability",
+    "Model Value 1": -0.0845535912108548,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "INITIALPOINTIMPACT",
+    "Input 1 Value 1": 1
+  },
+  {
+    "Coefficient Key": "INITIALPOINTIMPACT9",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0.271542266944081,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": -0.0430207654135338,
+    "Input 1": "INITIALPOINTIMPACT",
+    "Input 1 Value 1": 5
+  },
+  {
+    "Coefficient Key": "INITIALPOINTIMPACT10",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0.196093601858658,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": -0.0237614639756452,
+    "Input 1": "INITIALPOINTIMPACT",
+    "Input 1 Value 1": 4
+  },
+  {
+    "Coefficient Key": "INITIALPOINTIMPACT11",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0.438831854551451,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "INITIALPOINTIMPACT",
+    "Input 1 Value 1": 6
+  },
+  {
+    "Coefficient Key": "INITIALPOINTIMPACT12",
+    "Model Type 1": "Probability",
+    "Model Value 1": -0.839885022032365,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0.0997372146968987,
+    "Input 1": "INITIALPOINTIMPACT",
+    "Input 1 Value 1": 13
+  },
+  {
+    "Coefficient Key": "INITIALPOINTIMPACT13",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0.0171787454270162,
+    "Input 1": "INITIALPOINTIMPACT",
+    "Input 1 Value 1": 3
+  },
+  {
+    "Coefficient Key": "INITIALPOINTIMPACT14",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "INITIALPOINTIMPACT",
+    "Input 1 Value 1": "Default"
+  },
+  {
+    "Coefficient Key": "LOSSCAUSETYPE1",
+    "Model Type 1": "Probability",
+    "Model Value 1": -2.40353766094192,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0.038251392565467,
+    "Input 1": "LOSSCAUSETYPE",
+    "Input 1 Value 1": "insdparkedHit"
+  },
+  {
+    "Coefficient Key": "LOSSCAUSETYPE2",
+    "Model Type 1": "Probability",
+    "Model Value 1": -0.408772931058659,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0.0455351808291945,
+    "Input 1": "LOSSCAUSETYPE",
+    "Input 1 Value 1": "insdhitinrear"
+  },
+  {
+    "Coefficient Key": "LOSSCAUSETYPE3",
+    "Model Type 1": "Probability",
+    "Model Value 1": -1.1310297091708,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0.0407008199771315,
+    "Input 1": "LOSSCAUSETYPE",
+    "Input 1 Value 1": "headoncollision"
+  },
+  {
+    "Coefficient Key": "LOSSCAUSETYPE4",
+    "Model Type 1": "Probability",
+    "Model Value 1": -2.77572643025805,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": -0.325552605247675,
+    "Input 1": "LOSSCAUSETYPE",
+    "Input 1 Value 1": "insdbacking"
+  },
+  {
+    "Coefficient Key": "LOSSCAUSETYPE5",
+    "Model Type 1": "Probability",
+    "Model Value 1": -7.01143798184508,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": -0.155230834005551,
+    "Input 1": "LOSSCAUSETYPE",
+    "Input 1 Value 1": "hitparkedcar"
+  },
+  {
+    "Coefficient Key": "LOSSCAUSETYPE6",
+    "Model Type 1": "Probability",
+    "Model Value 1": -4.30937900027175,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": -0.296926587512889,
+    "Input 1": "LOSSCAUSETYPE",
+    "Input 1 Value 1": "pedcyclistother"
+  },
+  {
+    "Coefficient Key": "LOSSCAUSETYPE7",
+    "Model Type 1": "Probability",
+    "Model Value 1": -6.41637154717006,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "LOSSCAUSETYPE",
+    "Input 1 Value 1": "hitstationary"
+  },
+  {
+    "Coefficient Key": "LOSSCAUSETYPE8",
+    "Model Type 1": "Probability",
+    "Model Value 1": -2.62410800259002,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": -0.301395006739875,
+    "Input 1": "LOSSCAUSETYPE",
+    "Input 1 Value 1": "insdpulledfromparked"
+  },
+  {
+    "Coefficient Key": "LOSSCAUSETYPE9",
+    "Model Type 1": "Probability",
+    "Model Value 1": -5.26129024090712,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": -0.245651967633712,
+    "Input 1": "LOSSCAUSETYPE",
+    "Input 1 Value 1": "hitclaimantrear"
+  },
+  {
+    "Coefficient Key": "LOSSCAUSETYPE10",
+    "Model Type 1": "Probability",
+    "Model Value 1": -0.881113968599932,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0.036361497172172,
+    "Input 1": "LOSSCAUSETYPE",
+    "Input 1 Value 1": "intersectionCrossing"
+  },
+  {
+    "Coefficient Key": "LOSSCAUSETYPE11",
+    "Model Type 1": "Probability",
+    "Model Value 1": -2.43738998057063,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": -0.114052050963203,
+    "Input 1": "LOSSCAUSETYPE",
+    "Input 1 Value 1": "intersectionLeft"
+  },
+  {
+    "Coefficient Key": "LOSSCAUSETYPE12",
+    "Model Type 1": "Probability",
+    "Model Value 1": -2.23061527736033,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": -0.0613181078590333,
+    "Input 1": "LOSSCAUSETYPE",
+    "Input 1 Value 1": "intersectionRight"
+  },
+  {
+    "Coefficient Key": "LOSSCAUSETYPE13",
+    "Model Type 1": "Probability",
+    "Model Value 1": -1.4086206424185,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "LOSSCAUSETYPE",
+    "Input 1 Value 1": "othercollision"
+  },
+  {
+    "Coefficient Key": "LOSSCAUSETYPE14",
+    "Model Type 1": "Probability",
+    "Model Value 1": -1.50261470847566,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "LOSSCAUSETYPE",
+    "Input 1 Value 1": "cutinsideswipe"
+  },
+  {
+    "Coefficient Key": "LOSSCAUSETYPE15",
+    "Model Type 1": "Probability",
+    "Model Value 1": -4.05450982901153,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "LOSSCAUSETYPE",
+    "Input 1 Value 1": "Grouped"
+  },
+  {
+    "Coefficient Key": "LOSSCAUSETYPE16",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "LOSSCAUSETYPE",
+    "Input 1 Value 1": "Default"
+  },
+  {
+    "Coefficient Key": "MULTICARIND1",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0.0442827805459739,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0.00643929223875871,
+    "Input 1": "MULTICARIND",
+    "Input 1 Value 1": "true"
+  },
+  {
+    "Coefficient Key": "MULTICARIND2",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "MULTICARIND",
+    "Input 1 Value 1": "false"
+  },
+  {
+    "Coefficient Key": "MULTICARIND3",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "MULTICARIND",
+    "Input 1 Value 1": "Default"
+  },
+  {
+    "Coefficient Key": "VEHICLEMAKE1",
+    "Model Type 1": "Probability",
+    "Model Value 1": -0.133701369755022,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "VEHICLEMAKE",
+    "Input 1 Value 1": "BMW"
+  },
+  {
+    "Coefficient Key": "VEHICLEMAKE2",
+    "Model Type 1": "Probability",
+    "Model Value 1": -0.174268165747247,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "VEHICLEMAKE",
+    "Input 1 Value 1": "BUIK"
+  },
+  {
+    "Coefficient Key": "VEHICLEMAKE3",
+    "Model Type 1": "Probability",
+    "Model Value 1": -0.253165125786382,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "VEHICLEMAKE",
+    "Input 1 Value 1": "CADL"
+  },
+  {
+    "Coefficient Key": "VEHICLEMAKE4",
+    "Model Type 1": "Probability",
+    "Model Value 1": -0.0904249830960099,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "VEHICLEMAKE",
+    "Input 1 Value 1": "CHEV"
+  },
+  {
+    "Coefficient Key": "VEHICLEMAKE5",
+    "Model Type 1": "Probability",
+    "Model Value 1": -0.132302214709287,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "VEHICLEMAKE",
+    "Input 1 Value 1": "DODG"
+  },
+  {
+    "Coefficient Key": "VEHICLEMAKE6",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0.172524623578222,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": -0.00860577749048074,
+    "Input 1": "VEHICLEMAKE",
+    "Input 1 Value 1": "HOND"
+  },
+  {
+    "Coefficient Key": "VEHICLEMAKE7",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0.103828116171914,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "VEHICLEMAKE",
+    "Input 1 Value 1": "HYUN"
+  },
+  {
+    "Coefficient Key": "VEHICLEMAKE8",
+    "Model Type 1": "Probability",
+    "Model Value 1": -0.177944916456797,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "VEHICLEMAKE",
+    "Input 1 Value 1": "INFI"
+  },
+  {
+    "Coefficient Key": "VEHICLEMAKE9",
+    "Model Type 1": "Probability",
+    "Model Value 1": -0.326778917977466,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "VEHICLEMAKE",
+    "Input 1 Value 1": "JAG"
+  },
+  {
+    "Coefficient Key": "VEHICLEMAKE10",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0.0955810585072015,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "VEHICLEMAKE",
+    "Input 1 Value 1": "JEEP"
+  },
+  {
+    "Coefficient Key": "VEHICLEMAKE11",
+    "Model Type 1": "Probability",
+    "Model Value 1": -0.136419696578487,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "VEHICLEMAKE",
+    "Input 1 Value 1": "LEXS"
+  },
+  {
+    "Coefficient Key": "VEHICLEMAKE12",
+    "Model Type 1": "Probability",
+    "Model Value 1": -0.219548717741116,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "VEHICLEMAKE",
+    "Input 1 Value 1": "LINC"
+  },
+  {
+    "Coefficient Key": "VEHICLEMAKE13",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0.12891222340687,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "VEHICLEMAKE",
+    "Input 1 Value 1": "MAZD"
+  },
+  {
+    "Coefficient Key": "VEHICLEMAKE14",
+    "Model Type 1": "Probability",
+    "Model Value 1": -0.235032298589406,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "VEHICLEMAKE",
+    "Input 1 Value 1": "MRBZ"
+  },
+  {
+    "Coefficient Key": "VEHICLEMAKE15",
+    "Model Type 1": "Probability",
+    "Model Value 1": -0.305971543910344,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "VEHICLEMAKE",
+    "Input 1 Value 1": "OTHR"
+  },
+  {
+    "Coefficient Key": "VEHICLEMAKE16",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0.207015487590346,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "VEHICLEMAKE",
+    "Input 1 Value 1": "SBRU"
+  },
+  {
+    "Coefficient Key": "VEHICLEMAKE17",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0.0570322134659768,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": -0.0140058070801217,
+    "Input 1": "VEHICLEMAKE",
+    "Input 1 Value 1": "TOYO"
+  },
+  {
+    "Coefficient Key": "VEHICLEMAKE18",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0.233025096163275,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "VEHICLEMAKE",
+    "Input 1 Value 1": "VOLV"
+  },
+  {
+    "Coefficient Key": "VEHICLEMAKE19",
+    "Model Type 1": "Probability",
+    "Model Value 1": -0.803542977837498,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "VEHICLEMAKE",
+    "Input 1 Value 1": "TESL"
+  },
+  {
+    "Coefficient Key": "VEHICLEMAKE20",
+    "Model Type 1": "Probability",
+    "Model Value 1": -0.803542977837498,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "VEHICLEMAKE",
+    "Input 1 Value 1": "Grouped"
+  },
+  {
+    "Coefficient Key": "VEHICLEMAKE21",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "VEHICLEMAKE",
+    "Input 1 Value 1": "Default"
+  },
+  {
+    "Coefficient Key": "VEHICLEYEAR1",
+    "Model Type 1": "Probability",
+    "Model Value 1": -0.0240441868144115,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "VEHICLEYEAR",
+    "Input 1 Value 1": "VEHICLEYEAR_ACTUAL"
+  },
+  {
+    "Coefficient Key": "DEDUCTIBLEWAIVED1",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0.737846998900554,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "DEDUCTIBLEWAIVED",
+    "Input 1 Value 1": "true"
+  },
+  {
+    "Coefficient Key": "DEDUCTIBLEWAIVED2",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "DEDUCTIBLEWAIVED",
+    "Input 1 Value 1": "false"
+  },
+  {
+    "Coefficient Key": "DEDUCTIBLEWAIVED3",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "DEDUCTIBLEWAIVED",
+    "Input 1 Value 1": "Default"
+  },
+  {
+    "Coefficient Key": "JURISDICTION1",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "JURISDICTION",
+    "Input 1 Value 1": "contributory"
+  },
+  {
+    "Coefficient Key": "JURISDICTION2",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0.240719018756454,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": -0.0443663519817327,
+    "Input 1": "JURISDICTION",
+    "Input 1 Value 1": "pure"
+  },
+  {
+    "Coefficient Key": "JURISDICTION3",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0.209443371569566,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "JURISDICTION",
+    "Input 1 Value 1": "modified50"
+  },
+  {
+    "Coefficient Key": "JURISDICTION4",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0.0194876874686126,
+    "Input 1": "JURISDICTION",
+    "Input 1 Value 1": "modified51"
+  },
+  {
+    "Coefficient Key": "JURISDICTION5",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "JURISDICTION",
+    "Input 1 Value 1": "Default"
+  },
+  {
+    "Coefficient Key": "DEDUCTIBLETODATE1",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0.00340814957378701,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0.0000528521865137,
+    "Input 1": "DEDUCTIBLETODATE",
+    "Input 1 Value 1": "DEDUCTIBLETODATE_ACTUAL"
+  },
+  {
+    "Coefficient Key": "DEDUCTIBLETODATE2",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "DEDUCTIBLETODATE",
+    "Input 1 Value 1": "Default"
+  },
+  {
+    "Coefficient Key": "COVERAGEDEDUCTIBLE1",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0.00265440615069211,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0.00001801908512126,
+    "Input 1": "COVERAGEDEDUCTIBLE",
+    "Input 1 Value 1": "COVERAGEDEDUCTIBLE_ACTUAL"
+  },
+  {
+    "Coefficient Key": "COVERAGEDEDUCTIBLE2",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "COVERAGEDEDUCTIBLE",
+    "Input 1 Value 1": "Default"
+  },
+  {
+    "Coefficient Key": "GROSSLOSS1",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0.426995797583844,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0.968163815043131,
+    "Input 1": "GROSSLOSS",
+    "Input 1 Value 1": "GROSSLOSS_LOG"
+  },
+  {
+    "Coefficient Key": "GROSSLOSS2",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "GROSSLOSS",
+    "Input 1 Value 1": "Default"
+  },
+  {
+    "Coefficient Key": "DRIVERAGEA0",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "DRIVERAGE",
+    "Input 1 Value 1": "DRIVERAGE_SPLINE_A0"
+  },
+  {
+    "Coefficient Key": "DRIVERAGEA1",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0.400807505782777,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "DRIVERAGE",
+    "Input 1 Value 1": "DRIVERAGE_SPLINE_A1"
+  },
+  {
+    "Coefficient Key": "DRIVERAGEA2",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0.335242765942584,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "DRIVERAGE",
+    "Input 1 Value 1": "DRIVERAGE_SPLINE_A2"
+  },
+  {
+    "Coefficient Key": "DRIVERAGEA3",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0.542493290728943,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "DRIVERAGE",
+    "Input 1 Value 1": "DRIVERAGE_SPLINE_A3"
+  },
+  {
+    "Coefficient Key": "DRIVERAGEA4",
+    "Model Type 1": "Probability",
+    "Model Value 1": -1.00921394924461,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "DRIVERAGE",
+    "Input 1 Value 1": "DRIVERAGE_SPLINE_A4"
+  },
+  {
+    "Coefficient Key": "CLAIMTIER1",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0.113365894843779,
+    "Input 1": "CLAIMTIER",
+    "Input 1 Value 1": "low"
+  },
+  {
+    "Coefficient Key": "CLAIMTIER2",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0.10497576680346,
+    "Input 1": "CLAIMTIER",
+    "Input 1 Value 1": "medium"
+  },
+  {
+    "Coefficient Key": "CLAIMTIER3",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "CLAIMTIER",
+    "Input 1 Value 1": "Default"
+  },
+  {
+    "Coefficient Key": "HITANDRUN1",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "HITANDRUN",
+    "Input 1 Value 1": "true"
+  },
+  {
+    "Coefficient Key": "HITANDRUN2",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "HITANDRUN",
+    "Input 1 Value 1": "false"
+  },
+  {
+    "Coefficient Key": "HITANDRUN3",
+    "Model Type 1": "Probability",
+    "Model Value 1": 0,
+    "Model Type 2": "RecoveryAmount",
+    "Model Value 2": 0,
+    "Input 1": "HITANDRUN",
+    "Input 1 Value 1": "Default"
+  }
+]
