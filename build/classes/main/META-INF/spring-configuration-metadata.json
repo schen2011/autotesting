@@ -1,0 +1,15 @@
+{
+  "groups": [{
+    "name": "storage",
+    "type": "com.lmig.uscm.cl.predictivemodel.client.storage.StorageProperties",
+    "sourceType": "com.lmig.uscm.cl.predictivemodel.client.storage.StorageProperties"
+  }],
+  "properties": [{
+    "name": "storage.location",
+    "type": "java.lang.String",
+    "description": "Folder location for storing files",
+    "sourceType": "com.lmig.uscm.cl.predictivemodel.client.storage.StorageProperties",
+    "defaultValue": "temp/"
+  }],
+  "hints": []
+}
