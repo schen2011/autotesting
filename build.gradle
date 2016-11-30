@@ -40,3 +40,21 @@ dependencies {
     testCompile("org.springframework.boot:spring-boot-starter-test")
 }
 
+
+
+jar {
+    baseName = 'auto-testing'
+    version =  '0.1.0'
+    from {
+        (configurations.runtime).collect {
+            it.isDirectory() ? it : zipTree(it)
+        }
+    }
+    manifest {
+        attributes(
+                'Class-Path': configurations.compile.collect { it.getName() }.join(' '),
+                'Main-Class': 'Application'
+        )
+    }
+}
+
